@@ -30,7 +30,7 @@ export const Navbar = ({route}) => {
                 <img className="icon mr-1" src="/assets/image.png" alt="logo" />
                 <h1 className="heading-title">
                     {
-                        route === "home" || route === "login" ? (<Link to="/" className="link">Quizify</Link>) : "Quizify"
+                        route === "home" || route === "login" ? (<Link to="/" className="link">BrainSpark</Link>) : "Quizify"
                     }
                 </h1>
             </div>
